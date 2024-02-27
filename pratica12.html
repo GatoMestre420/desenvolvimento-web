@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+    <style>
+        
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .cabeçalho {
+
+            text-align: center;
+            border: solid 1px rgb(241, 235, 235);
+            padding: 10px;
+            background-color: rgb(230, 211, 188);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            
+
+        }
+
+        .menuprincipal {
+
+            border: solid 1px black;
+            border-radius: 15px;
+            width: 1000px;
+            margin: auto;
+            height: 450px;
+            padding-left: 40px;
+            margin-top: 30px;
+
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+    <h1 class="cabeçalho">Formulário de contato</h1>
+
+    <div class="menuprincipal">
+        <form>
+        <br>
+            <label>Nome</label>
+        <br>
+              <input 
+                placeholder="Digite o nome que esta e seu documento"
+                type="text"
+                size="50px"
+                maxlength="10"
+            >
+        <br>
+        <br>
+            
+            <label>Sobrenome</label>
+        <br>
+             <input
+                placeholder="Entre com seu sobrenome"
+                type="text"
+                size="50"
+                maxlength="10"
+         
+            >
+        <br>
+        <br>
+
+            
+            <label>Idade </label>
+                <input type="number"
+            >
+
+            <label>Cargo</label>
+                <select>
+                    <option>Secretario</option> 
+                    <option>Cordenador</option> 
+                    <option>Gerente</option> 
+                    <option>Consultor</option> 
+                    <option>Analista</option> 
+                </select>
+
+            <label>Setor</label>
+                <select>
+                    <option>RH</option>
+                    <option>Financeiro</option>
+                    <option>Vendas</option>
+                    <option>Marketing</option>
+                    <option>Produção</option>
+                </select>
+
+        <br>
+        <br>
+
+            <label>Data da visita</label>
+                <br>
+                <input type="date"> 
+        <br>   
+        <br>       
+            <label>Observações</label> 
+            <br>  
+            <textarea style="resize: none " rows="5" cols="80"> 
+                
+            </textarea> 
+            <br>
+            <br>
+
+            <button style="margin-left: 400px; padding: 3px; border: 2px solid black  ">submeter formulário</button>
+        </form>
+        <br>
+
+     
+                    
+
+    </div>
+    
+</body>
+</html>
