@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #faebd7;
+}
+
+/* Estilização do Menu  */
+
+.menu {
+    margin: auto;
+    text-align: end;
+    background-color: #000000;
+    color: white;
+}
+
+.menu ul {
+    margin-right: 60px;
+}
+
+.menu ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Estilização dos Textos */
+
+.textos {
+    margin: auto;
+    text-align: center;
+    border: 2px solid;
+    background-color: #ffffff;
+    width: 80%;
+    margin-top: 15px;
+    height: 800px;
+}
+
+.textos2 {
+    margin: auto;
+    text-align: center;
+    width: 85%;
+}
+
+.textos2 h2 {
+    padding: 10px;
+}
+
+.textos2 p {
+    font-size: 17px;
+}
+
+/* Estilização Final  */
+
+.nome {
+    margin: auto;
+    text-align: center;
+    background-color: rgb(214, 208, 195);
+    margin-top: 15px;
+    padding-bottom: 79px;
+}
+
+.nome p {
+    padding: 10px;
+}
