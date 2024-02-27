@@ -1,0 +1,73 @@
+body {
+    background-image: url(praia.jpg);
+    background-repeat: no repeat;
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.cabeçalho {
+    margin-left: -10px;
+    padding: 16px;
+    margin-top: 10px;
+    
+}
+
+.menuform {
+    margin-top: 30px;
+}
+
+header {
+
+    background-color: black;
+    color: rgb(255, 254, 254);
+    height: 60px;
+    border-radius: 40px;
+    margin-top: 5px;
+
+}
+
+
+header ul li {
+
+    display: inline;
+    padding-left: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    cursor: pointer; 
+}
+
+main {
+
+    margin: auto;
+    height:620px;
+    width: 600px;
+    border: 1px solid;
+    border-radius: 25px;
+    margin-top: 50px;
+    text-align: center;
+    color: black;
+    font-size: larger;
+
+}
+
+.menuform {
+
+    font-size: 25px;
+}
+
+.documento select {
+    font-size: 20px;
+}
+
+#idade {
+    height: 30px;
+    width: 79px;
+    border-radius: 10px;
+    border: none;
+    text-align: center; 
+                
+}
+
+
+
